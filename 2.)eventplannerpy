@@ -1,0 +1,13 @@
+# Task 1: Code Correction
+# Task 2: Venue Selection: Additional facilities
+# Task 3: Catering Choices
+
+
+attendees = int(input("Enter number of attendees: "))
+catering = input("Would you like vegetarian food? yes/no: ")
+venue = "Large hall" if attendees > 100 else "Conference room"
+catering = "Veggie Delight Caterers" if catering == "yes" else "Gourmet Meal Caterers"
+facilities = "Consider a larger projector" if attendees > 200 else "I reccomend the platinum package for premium audio ."
+print(venue)
+print(catering)
+print(facilities)
